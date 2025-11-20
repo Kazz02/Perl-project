@@ -18,3 +18,14 @@
 8.8.8.8 - - [10/Oct/2023:14:10:45 -0700] "GET /index.html HTTP/1.1" 200 2326
 172.16.0.3 - - [10/Oct/2023:14:11:12 -0700] "GET /products/item-55.html HTTP/1.1" 200 6543
 198.51.100.22 - - [10/Oct/2023:14:12:00 -0700] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [20/Nov/2025 16:09:08] "GET / HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:10] code 404, message File not found
+::1 - - [20/Nov/2025 16:09:10] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [20/Nov/2025 16:09:12] "GET /.git/ HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:14] "GET /.git/index HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:17] "GET /README.md HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:25] "GET / HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:25] "GET / HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:26] "GET / HTTP/1.1" 200 -
+::1 - - [20/Nov/2025 16:09:33] code 404, message File not found
+::1 - - [20/Nov/2025 16:09:33] "GET /does-not-exist HTTP/1.1" 404 -
