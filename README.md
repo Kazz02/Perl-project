@@ -18,6 +18,12 @@ A simple Perl script to analyze web server log files.
 perl log_analyzer.pl
 ```
 
+To get real data from localhost traffic, you need to run it from Python server:
+
+```
+python -m http.server 8080 2>> access.log
+```
+
 ## Example Output
 
 ```text
