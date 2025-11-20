@@ -1,6 +1,6 @@
 # Perl Log Analyzer
 
-A simple Perl script to analyze web server log files (Common Log Format).
+A simple Perl script to analyze web server log files.
 
 ## Features
 - Parses standard access logs.
