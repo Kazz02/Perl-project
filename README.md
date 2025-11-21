@@ -3,6 +3,7 @@
 A simple Perl script to analyze web server log files.
 
 ## Features
+
 - Parses standard access logs.
 - Counts requests by IP address.
 - Summarizes HTTP status codes (200, 404, etc.).
@@ -15,7 +16,7 @@ A simple Perl script to analyze web server log files.
 3. Run the script:
 
 ```bash
-perl log_analyzer.pl
+perl analyzer.pl
 ```
 
 To get real data from localhost traffic, you need to run it from Python server:
