@@ -24,6 +24,10 @@ To get real data from localhost traffic, you need to run it from Python server:
 ```
 python -m http.server 8080 2>> access.log
 ```
+Run localhost
+```
+http://localhost:8080
+```
 
 ## Example Output
 
